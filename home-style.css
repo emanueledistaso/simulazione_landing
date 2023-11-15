@@ -1,7 +1,7 @@
 /* INDICE:
 01 - JUMBO E TITOLI
 02 - CTA
-03 - SEZIONI 1 E 2
+03 - SEZIONI CONTENUTO
 04 - DISCOVER
  */
 
@@ -67,4 +67,55 @@
     font-family: 'Quattrocento', serif;
     font-size: 25px;
 }
+
+/* 03 - Sezioni CONTENUTO */
+
+/* Classi in comune */
+.image{
+    margin: 0px 50px;
+}
+
+.image img{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.text{
+    text-align: center;
+    margin: 0 100px;
+}
+
+.text h3{
+    font-size: 35px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.text h5{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.text p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.firstBox{
+    padding: 100px 0;
+
+}
+
+.secondBox{
+    padding: 100px 0;
+    background-color: black;
+}
+
+.secondBox .wrapper .text{
+    color: #fff;
+}
+
+/* 04 - DISCOVER */
 

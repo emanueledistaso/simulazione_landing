@@ -13,3 +13,7 @@ Simulation of a landing page for a restaurant, done using HTML5 and CSS3
 
  - Added Jumbotron
  - Added call to action
+
+## Third Milestone
+
+ - Added content sections
