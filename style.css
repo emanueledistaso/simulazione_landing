@@ -65,7 +65,7 @@ nav{
 
 .logo img{
     height: 65px;
-    width: 90px
+    width: 100px
 }
 
 .menu ul li{
@@ -88,8 +88,47 @@ nav{
 
 footer{
     background-color: #000;
-    display: flex;
-    justify-content: space-around;
+    padding-top: 35px;
+}
+
+footer .logo{
+    margin-top: 35px;
+}
+
+footer ul li{
+    margin: 20px 0px;
+    color: #fff;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul li a:hover{
+    color: #ffd700;
+}
+footer .wrapper{
     align-items: start;
-    
+    height: 400px;
+}
+
+footer .wrapper ul li {
+    list-style: none;
+    font-family: 'Quattrocento', serif;
+    font-size: 20px;
+    margin: 40px 0px;
+}
+
+footer .wrapper ul li:first-child{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.copy{
+    border-top: 3px solid #fff;
+    height: 120px;
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
 }

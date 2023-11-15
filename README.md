@@ -22,3 +22,8 @@ Simulation of a landing page for a restaurant, done using HTML5 and CSS3
 
  - Added discover section 
  - Connected discover with CTA
+
+## Fifth Milestone
+ 
+ -Added Footer
+ -Added Copy
