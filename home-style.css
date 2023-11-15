@@ -1,0 +1,70 @@
+/* INDICE:
+01 - JUMBO E TITOLI
+02 - CTA
+03 - SEZIONI 1 E 2
+04 - DISCOVER
+ */
+
+ /* 01 - JUMBO E TITOLI */
+.jumbo{
+    background-image: url("assets/jumbo.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    flex-direction: column;
+    text-align: center;
+}
+
+.jumbo h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #ffd700;
+
+}
+
+.jumbo p {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+/* 02 - CTA */
+.btn{
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin: 20px 35px;
+    
+}
+
+.btn a:hover{
+    color: #ffd700;
+    font-weight: bold;
+}
+/* Prima call to action */
+
+.firstButton{
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+.firstButton a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Quattrocento', serif;
+    font-size: 25px;
+}
+
+/* Seconda call to action */
+
+.secondButton{
+    border: 1px solid #fff;
+    background-color: #000;
+}
+
+.secondButton a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Quattrocento', serif;
+    font-size: 25px;
+}
+

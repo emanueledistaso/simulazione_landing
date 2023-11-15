@@ -5,7 +5,7 @@
 03 - NAVBAR
 04 - FOOTER */ 
 
-/* 01 - CSS RESET */
+/* 01 - CSS RESET*/
 *{
     margin: 0;
     padding: 0;
@@ -36,6 +36,14 @@ font-family: 'Quattrocento', serif;
 .wrapper{
     max-width: 1300px;
     margin: 0 auto;
+}
+
+p {
+    font-family: 'Alice', serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Quattrocento', sans-serif;
 }
 
 /* 03 - NAVBAR */
