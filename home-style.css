@@ -3,125 +3,122 @@
 02 - CTA
 03 - SEZIONI CONTENUTO
 04 - DISCOVER
+05 - RESPONSIVE MEDIAQUERY
+    05.1 MOBILE
 
-01.2 MEDIA QUERIES JUMBO
+    05.2 TABLET
 */
 
- /* 01 - JUMBO E TITOLI */
-.jumbo{
-    background-image: url("assets/jumbo.jpg");
-    background-position: bottom;
-    background-size: cover;
-    height: calc(100vh - 80px);
-    flex-direction: column;
-    text-align: center;
+/* 01 - JUMBO E TITOLI */
+.jumbo {
+  background-image: url("assets/jumbo.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: calc(100vh - 80px);
+  flex-direction: column;
+  text-align: center;
 }
 
-.jumbo h2{
-    font-size: 80px;
-    text-transform: uppercase;
-    color: #ffd700;
-
+.jumbo h2 {
+  text-transform: uppercase;
+  color: #ffd700;
 }
 
 .jumbo p {
-    font-size: 25px;
-    color: #fff;
-    margin-bottom: 40px;
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 40px;
 }
 
 /* 02 - CTA */
-.btn{
-    padding: 10px 40px;
-    border-radius: 20px;
-    margin: 20px 35px;
-    
+.btn {
+  padding: 10px 40px;
+  border-radius: 20px;
+  margin: 20px 35px;
 }
 
-.btn a:hover{
-    color: #ffd700;
-    font-weight: bold;
+.btn a:hover {
+  color: #ffd700;
+  font-weight: bold;
 }
 /* Prima call to action */
 
-.firstButton{
-    border: 1px solid black;
-    background-color: #fff;
+.firstButton {
+  border: 1px solid black;
+  background-color: #fff;
 }
 
-.firstButton a{
-    text-decoration: none;
-    color: #000;
-    font-family: 'Quattrocento', serif;
-    font-size: 25px;
+.firstButton a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Quattrocento", serif;
+  font-size: 25px;
 }
 
 /* Seconda call to action */
 
-.secondButton{
-    border: 1px solid #fff;
-    background-color: #000;
+.secondButton {
+  border: 1px solid #fff;
+  background-color: #000;
 }
 
-.secondButton a{
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Quattrocento', serif;
-    font-size: 25px;
+.secondButton a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Quattrocento", serif;
+  font-size: 25px;
 }
 
 /* 03 - Sezioni CONTENUTO */
 
 /* Classi in comune */
-.image{
-    margin: 0px 50px;
+.image {
+  margin: 0px 50px;
 }
 
-.image img{
-    height: 350px;
-    width: 400px;
-    border-radius: 15px;
+.image img {
+  height: 350px;
+  width: 400px;
+  border-radius: 15px;
 }
 
-.text{
-    text-align: center;
-    margin: 0 100px;
+.text {
+  text-align: center;
+  margin: 0 100px;
 }
 
-.text h3{
-    font-size: 35px;
-    margin-bottom: 8px;
-    font-weight: 500;
+.text h3 {
+  margin-bottom: 8px;
+  font-weight: 500;
 }
 
-.text h5{
-    font-size: 20px;
-    margin-bottom: 15px;
-    font-weight: 500;
+.text h5 {
+  margin-bottom: 15px;
+  font-weight: 500;
 }
 
-.text p{
-    font-size: 18px;
-    font-weight: 300;
+.text p {
+  font-weight: 300;
 }
 
-.firstBox{
-    padding: 100px 0;
+.firstBox {
+  padding: 100px 0;
 }
 
-.secondBox{
-    padding: 100px 0;
-    background-color: black;
+.secondBox {
+  padding: 100px 0;
+  background-color: black;
 }
 
-.secondBox .wrapper .text{
-    color: #fff;
+.secondBox .wrapper .text {
+  color: #fff;
 }
 
 /* 04 - DISCOVER */
 
-#discover h3{
-    margin-bottom: 35px;
-    font-size: 35px;
-    font-weight: 500;
+#discover h3 {
+  margin-bottom: 35px;
+  font-weight: 500;
 }
+
+/* 05 - RESPONSIVE MEDIAQUERY*/

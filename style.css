@@ -3,13 +3,30 @@
 01 - CSS RESET
 02 - UTILITIES + WRAPPER
 03 - NAVBAR
-04 - FOOTER */ 
+    03.1 LOGO
+    03.2 NAVIGATION MENU
+04 - FOOTER 
+    04.1 STRUTTURA GENERALE E LOGO
+    04.2 LISTE COI LINK
+    04.3 COPYRIGHT
+05 - RESPONSIVE MEDIAQUERY
+    05.1 MOBILE
+        05.1.1 NAVBAR-MB
+        05.1.2 FOOTER-MB
+    05.2 TABLET
+*/
+    
+/* LEGENDA MEDIAQUERY:
+    MOBILE: fino a 400px
+    TABLET: da 401px a 1024px
+    DESKTOP: da 1025px in poi
+*/
 
 /* 01 - CSS RESET*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* 
@@ -17,118 +34,208 @@ FONT IMPORTATI: QUATTROCENTO PER TITOLI E ALICE PER CORPI
 font-family: 'Alice', serif;
 font-family: 'Quattrocento', serif;
 */
+/* DIMENSIONI GENERALI TESTI */
+
+h2 {
+    font-size: 80px;
+  }
+  
+  h3 {
+    font-size: 35px;
+  }
+  
+  h5 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+
 
 /* 02 - UTILITIES + WRAPPER */
 
-.flex{
-    display: flex;
-    align-items: center;
+.flex {
+  display: flex;
+  align-items: center;
 }
 
-.center{
-    justify-content: center;
+.center {
+  justify-content: center;
 }
 
-.between{
-    justify-content: space-between;
+.between {
+  justify-content: space-between;
 }
 
-.column{
-    flex-direction: column;
+.column {
+  flex-direction: column;
 }
 
-.rreverse{
-    flex-direction: row-reverse;
+.rreverse {
+  flex-direction: row-reverse;
 }
 
-.wrapper{
-    max-width: 1300px;
-    margin: 0 auto;
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 p {
-    font-family: 'Alice', serif;
+  font-family: "Alice", serif;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Quattrocento', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quattrocento", sans-serif;
 }
 
 /* 03 - NAVBAR */
 
-nav{
-    height: 80px;
-    background-color: #000;
-    padding: 10px;
-    border-bottom: 2px solid #fff;
+nav {
+  height: 80px;
+  background-color: #000;
+  padding: 10px;
+  border-bottom: 2px solid #fff;
 }
 
-.logo img{
-    height: 65px;
-    width: 100px
+/* 03.1 LOGO */
+.logo img {
+  height: 65px;
+  width: 100px;
 }
 
-.menu ul li{
-    list-style: none;
-    margin: 0 17px;
+/* 03.2 NAVIGATION MENU */
+.menu ul li {
+  list-style: none;
+  margin: 0 17px;
 }
 
-.menu ul li a{
-    font-family: 'Quattrocento', serif;
-    font-size: 20px;
-    text-decoration: none;
-    color: #fff;
+.menu ul li a {
+  font-family: "Quattrocento", serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
 }
 
-.menu ul li a:hover{
-    color: #ffd700;
+.menu ul li a:hover {
+  color: #ffd700;
 }
 
 /* 04 - FOOTER */
 
-footer{
-    background-color: #000;
-    padding-top: 35px;
+/* 04.1 STRUTTURA GENERALE E LOGO */
+
+footer {
+  background-color: #000;
+  padding-top: 35px;
 }
 
-footer .logo{
-    margin-top: 35px;
+footer .logo {
+    /* Per la dimensione sfrutto il logo della navbar */
+  margin-top: 35px;
 }
 
-footer ul li{
-    margin: 20px 0px;
-    color: #fff;
+/* 04.2  LISTE COI LINK */
+
+footer ul li {
+  margin: 20px 0px;
+  color: #fff;
 }
 
-footer ul li a{
-    text-decoration: none;
-    color: #fff;
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
 }
 
-footer ul li a:hover{
-    color: #ffd700;
+footer ul li a:hover {
+  color: #ffd700;
 }
-footer .wrapper{
-    align-items: start;
-    height: 400px;
+
+footer .wrapper {
+  align-items: start;
+  height: 400px;
 }
 
 footer .wrapper ul li {
-    list-style: none;
-    font-family: 'Quattrocento', serif;
+  list-style: none;
+  font-family: "Quattrocento", serif;
+  font-size: 16px;
+  margin: 40px 0px;
+}
+
+footer .wrapper ul li:first-child {
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+/* 04.3 COPYRIGHT */
+
+.copy {
+  border-top: 3px solid #fff;
+  height: 120px;
+  text-align: center;
+  font-size: 23px;
+  color: #fff;
+}
+
+/* 05  RESPONSIVE MEDIAQUERY */
+
+/* 05.1 MOBILE */
+@media only screen and (max-width: 400px) {
+    /* DIMENSIONI GENERALI TESTI */
+h2 {
+    font-size: 40px;
+  }
+  
+  h3 {
     font-size: 20px;
-    margin: 40px 0px;
-}
+  }
+  
+  h5 {
+    font-size: 15px;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+    /* 05.1.1 NAVBAR-MB*/
+  .logo img {
+    height: 60px;
+    width: 90px;
+  }
 
-footer .wrapper ul li:first-child{
-    font-weight: bolder;
-    font-size: 24px;
-}
+  .menu {
+    background-image: url("assets/bars.svg");
+    height: 60px;
+    width: 60px;
+    background-position: center;
+    background-size: cover;
+  }
+  .menu ul {
+    display: none;
+  }
 
-.copy{
-    border-top: 3px solid #fff;
-    height: 120px;
-    text-align: center;
-    font-size: 23px;
-    color: #fff;
+  /* 05.1.2 FOOTER-MB*/
+
+  footer {
+    padding-top: 20px;
+  }
+
+  footer .logo img{
+    margin-top: 20px;
+  }
+
+  footer ul li{
+    margin: 20px 0px;
+    font-size: 12px;
+  }
+
+  footer .wrapper ul li:first-child{
+    font-size: 16px;
+  }
 }
