@@ -33,6 +33,10 @@ font-family: 'Quattrocento', serif;
     justify-content: space-between;
 }
 
+.column{
+    flex-direction: column;
+}
+
 .rreverse{
     flex-direction: row-reverse;
 }
@@ -81,3 +85,11 @@ nav{
 }
 
 /* 04 - FOOTER */
+
+footer{
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    
+}
