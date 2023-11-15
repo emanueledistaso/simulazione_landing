@@ -15,7 +15,7 @@
         05.1.2 FOOTER-MB
     05.2 TABLET
 */
-    
+
 /* LEGENDA MEDIAQUERY:
     MOBILE: fino a 400px
     TABLET: da 401px a 1024px
@@ -37,21 +37,20 @@ font-family: 'Quattrocento', serif;
 /* DIMENSIONI GENERALI TESTI */
 
 h2 {
-    font-size: 80px;
-  }
-  
-  h3 {
-    font-size: 35px;
-  }
-  
-  h5 {
-    font-size: 20px;
-  }
-  
-  p {
-    font-size: 18px;
-  }
+  font-size: 80px;
+}
 
+h3 {
+  font-size: 35px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
 
 /* 02 - UTILITIES + WRAPPER */
 
@@ -136,7 +135,7 @@ footer {
 }
 
 footer .logo {
-    /* Per la dimensione sfrutto il logo della navbar */
+  /* Per la dimensione sfrutto il logo della navbar */
   margin-top: 35px;
 }
 
@@ -186,24 +185,24 @@ footer .wrapper ul li:first-child {
 /* 05  RESPONSIVE MEDIAQUERY */
 
 /* 05.1 MOBILE */
-@media only screen and (max-width: 400px) {
-    /* DIMENSIONI GENERALI TESTI */
-h2 {
+@media only screen and (max-width: 430px) {
+  /* DIMENSIONI GENERALI TESTI */
+  h2 {
     font-size: 40px;
   }
-  
+
   h3 {
     font-size: 20px;
   }
-  
+
   h5 {
     font-size: 15px;
   }
-  
+
   p {
     font-size: 12px;
   }
-    /* 05.1.1 NAVBAR-MB*/
+  /* 05.1.1 NAVBAR-MB*/
   .logo img {
     height: 60px;
     width: 90px;
@@ -226,16 +225,70 @@ h2 {
     padding-top: 20px;
   }
 
-  footer .logo img{
+  footer .flex {
+    justify-content: space-around;
+  }
+
+  footer .logo img {
     margin-top: 20px;
   }
 
-  footer ul li{
+  footer ul li {
     margin: 20px 0px;
     font-size: 12px;
   }
 
-  footer .wrapper ul li:first-child{
+  footer .wrapper ul li:first-child {
     font-size: 16px;
+  }
+
+  footer .wrapper ul li a:hover {
+    color: inherit;
+  }
+}
+
+/*  05.2 - TABLET */
+@media only screen and (min-width: 431px) and (max-width: 1024px) {
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /* 05.1.2 FOOTER-MB*/
+
+  footer {
+    padding-top: 30px;
+  }
+
+  footer .flex {
+    justify-content: space-around;
+  }
+
+  footer .logo img {
+    margin-top:25px;
+  }
+
+  footer ul li {
+    margin: 20px 0px;
+    font-size: 16px;
+  }
+
+  footer .wrapper ul li:first-child {
+    font-size: 19px;
+  }
+
+  footer .wrapper ul li a:hover {
+    color: inherit;
   }
 }
