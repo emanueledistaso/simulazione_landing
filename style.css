@@ -131,7 +131,7 @@ nav {
 
 footer {
   background-color: #000;
-  padding-top: 35px;
+  padding: 35px 20px;
 }
 
 footer .logo {
@@ -268,7 +268,7 @@ footer .wrapper ul li:first-child {
   /* 05.1.2 FOOTER-MB*/
 
   footer {
-    padding-top: 30px;
+    padding-top: 30px 15px;
   }
 
   footer .flex {

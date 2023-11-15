@@ -213,6 +213,11 @@
     color: #fff;
   }
 
+  /* SEZIONI CONTENUTO */
+  .firstBox, .secondBox, #discover{
+    padding: 30px;
+  }
+
   .firstBox .flex {
     flex-direction: column-reverse;
   }

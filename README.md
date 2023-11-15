@@ -27,3 +27,7 @@ Simulation of a landing page for a restaurant, done using HTML5 and CSS3
  
  -Added Footer
  -Added Copy
+
+## Sixth Milestone
+
+-Added Responsiveness
