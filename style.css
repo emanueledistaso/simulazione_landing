@@ -96,6 +96,9 @@ h6 {
 /* 03 - NAVBAR */
 
 nav {
+  position: fixed;
+  width: 100vw;
+  top: 0;
   height: 80px;
   background-color: #000;
   padding: 10px;
@@ -196,11 +199,11 @@ footer .wrapper ul li:first-child {
   }
 
   h5 {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   p {
-    font-size: 12px;
+    font-size: 14px;
   }
   /* 05.1.1 NAVBAR-MB*/
   .logo img {
@@ -235,7 +238,7 @@ footer .wrapper ul li:first-child {
 
   footer ul li {
     margin: 20px 0px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   footer .wrapper ul li:first-child {

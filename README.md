@@ -35,3 +35,8 @@ Simulation of a landing page for a restaurant, done using HTML5 and CSS3
 ## Seventh Milestone
 
 -Added About Page
+
+## Eight Milestone
+
+-Added responsive options for about page
+-Fixed navbar to top of page

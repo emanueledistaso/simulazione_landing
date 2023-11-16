@@ -3,6 +3,10 @@
     02 - RESPONSIVENESS
 */
 
+main{
+    margin-top: 80px;
+}
+
 .photo{
     padding: 30px 15px;
 }
@@ -26,4 +30,26 @@
     font-family: 'Alice', serif;
     font-size: 18px;
     list-style: none;
+}
+
+/* 02 - RESPONSIVENESS */
+
+/* 02.1 RESPONSIVENESS MOBILE */
+@media only screen and (max-width: 1024px){
+   .photo img{
+    height: 400px;
+   }
+}
+
+@media only screen and (max-width: 830px){
+    main .flex{
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media only screen and (max-width: 430px){
+    .photo img{
+        height: 300px;
+    }
 }

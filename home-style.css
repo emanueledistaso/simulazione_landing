@@ -11,6 +11,7 @@
 
 /* 01 - JUMBO E TITOLI */
 .jumbo {
+  margin-top: 80px;
   background-image: url("assets/jumbo.jpg");
   background-position: bottom;
   background-size: cover;
