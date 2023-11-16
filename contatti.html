@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contatti-style.css" />
+    <title>Golden Plate - Contatti</title>
+  </head>
+
+  <body>
+    <!-- Header, importato tutto da homepage -->
+    <header>
+      <!-- Navbar con wrapper -->
+      <nav>
+        <div class="wrapper flex between">
+          <!-- Logo -->
+          <div class="logo">
+            <img
+              src="assets/logo.png"
+              alt="logo con piatto dorato e nome ristorante 'Golden Plate'"
+            />
+          </div>
+          <!-- Menu di navigazione -->
+          <div class="menu">
+            <ul class="flex center">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contatti.html">Contatti</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Grande scatola che contiene tutto, la uso per mettere titolo e contenuti in colonna -->
+      <div class="bigBox">
+        <h3>Prenota con noi!</h3>
+        <!-- Questa scatola invece mi contiene il form e la foto -->
+        <div class="container">
+          <!-- Inizio form -->
+          <div>
+            <form>
+              <div class="inserimento">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="inserimento">
+                <label for="lastName">Cognome</label>
+                <input type="text" name="lastName" id="lastName" />
+              </div>
+              <div class="inserimento">
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id="mail" />
+              </div>
+              <div class="inserimento">
+                <label for="msg">Lasciaci un messaggio!</label>
+                <textarea name="msg" id="msg" cols="40" rows="15"></textarea>
+              </div>
+              <div class="check">
+                <input type="radio" name="privacy" id="privacy" required />
+                <label for="newsletter">Accetto la privacy</label>
+              </div>
+              <div class="check">
+                <input type="checkbox" name="newsletter" id="newsletter" />
+                <label for="newsletter"
+                  >Voglio iscrivermi alla newsletter</label
+                >
+              </div>
+              <button>Invia</button>
+            </form>
+          </div>
+          <!-- Fine form e inizio foto -->
+          <div class="photo">
+            <img
+              src="assets/fotocontatti.jpg"
+              alt="Immagine chef che impiatta"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="wrapper flex between">
+        <div class="logo">
+          <a href="#"
+            ><img
+              src="assets/logo.png"
+              alt="logo con piatto dorato e nome ristorante 'Golden Plate'"
+            />
+          </a>
+        </div>
+        <ul>
+          <li>Pagine</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+        <ul>
+          <li>Link</li>
+          <li>
+            <a href="https://www.zeldadungeon.net/wiki/Link" target="_blank"
+              >Cookie Policy</a
+            >
+          </li>
+          <li>
+            <a href="https://www.zeldadungeon.net/wiki/Link" target="_blank"
+              >Privacy Policy</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="copy flex center">Copy @2023 Emanuele Di Staso</div>
+    </footer>
+  </body>
+</html>

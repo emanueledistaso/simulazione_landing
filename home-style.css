@@ -45,8 +45,7 @@
 }
 
 .btn a:hover {
-  color: #ffd700;
-  font-weight: bold;
+  color:#ffd700;
 }
 /* Prima call to action */
 
@@ -69,7 +68,6 @@
 .secondButton a {
   color: #fff;
 }
-
 /* 03 - Sezioni CONTENUTO */
 
 /* Classi in comune */
