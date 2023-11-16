@@ -133,11 +133,11 @@ label {
     height: 200px;
   }
 
-  .bigBox .container .check{
+  .bigBox .container .check {
     height: 30px;
   }
 
-  .bigBox .photo{
+  .bigBox .photo {
     margin: 0 auto;
     padding: 10px 0;
   }
@@ -147,69 +147,69 @@ label {
     width: 300px;
   }
 
-  button{
+  button {
     margin: 0 auto;
     width: 95%;
   }
 }
 
-@media only screen and (min-width: 431px) and (max-width: 1024px){
-    main {
-        margin-top: 0;
-        padding: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    
-      .bigBox {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: #fff;
-        padding: 10px 5px;
-        margin-top: 80px;
-        width: 100vw;
-        border: 2px solid #000;
-      }
-    
-      .container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-    
-      .bigBox .container .inserimento {
-        align-items: center;
-        text-align: center;
-      }
-    
-      .bigBox .container .inserimento input {
-        width: 90%;
-      }
-    
-      .bigBox .container textarea {
-        width: 90%;
-        height: 200px;
-      }
-    
-      .bigBox .container .check{
-        height: 30px;
-      }
-    
-      .bigBox .photo{
-        margin: 0 auto;
-        padding: 10px 0;
-      }
-    
-      .bigBox .photo img {
-        height: 450px;
-        width: 400px;
-      }
-    
-      button{
-        margin: 0 auto;
-        width: 95%;
-      }
+@media only screen and (min-width: 431px) and (max-width: 1024px) {
+  main {
+    margin-top: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bigBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px 5px;
+    margin-top: 80px;
+    width: 100vw;
+    border: 2px solid #000;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bigBox .container .inserimento {
+    align-items: center;
+    text-align: center;
+  }
+
+  .bigBox .container .inserimento input {
+    width: 90%;
+  }
+
+  .bigBox .container textarea {
+    width: 90%;
+    height: 200px;
+  }
+
+  .bigBox .container .check {
+    height: 30px;
+  }
+
+  .bigBox .photo {
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .bigBox .photo img {
+    height: 450px;
+    width: 400px;
+  }
+
+  button {
+    margin: 0 auto;
+    width: 95%;
+  }
 }
